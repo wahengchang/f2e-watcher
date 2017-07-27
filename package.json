@@ -1,0 +1,26 @@
+{
+  "name": "f2e-watcher",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "report:all": "node module/childProcess/child",
+    "start": "casperjs ./module/performance/index.js",
+    "report": "open http://localhost:3000/preload && NODE_ENV=production node ./reportWeb/dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "colors": "^1.1.2"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahengchang/f2e-watcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wahengchang/f2e-watcher/issues"
+  },
+  "homepage": "https://github.com/wahengchang/f2e-watcher#readme",
+  "description": ""
+}
