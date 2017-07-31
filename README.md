@@ -1,4 +1,6 @@
 # f2e-watcher
+It is a tool that automatically check perforamce of website by given list of URLs, and result showed as a website.
+
 Isomorphic Web Application is widely used and it is complex,problem of  performance occurs easier than before, this is a toolkit to ensure performance quality assurance.
 
  - See also: [express-watcher](https://www.npmjs.com/package/express-watcher)
@@ -23,11 +25,26 @@ $ npm install
 ```
 
 ## Run
+
+#### 1. Modifying config.json as the target URLs
+```
+{
+    "urls": [
+        "https://yahoo.com/",
+        "https://tw.user.mall.yahoo.com/",
+        "https://google.com/"
+    ]
+}
+```
+
+### 2. run the script
 ```
 $ npm run report:all
 
 //open browser http://localhost:3000/preload for the result
 ```
+![image](https://user-images.githubusercontent.com/5538753/28765563-ff6b49b2-75fd-11e7-884e-1efd6a6a1ef3.png)
+
 
 ## report.json format
 ```js
