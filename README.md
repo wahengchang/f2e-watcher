@@ -8,16 +8,16 @@ Isomorphic Web Application is widely used and it is complex,problem of  performa
 ## Install
 The base of f2e-watcher is casperjs, and the base of casperjs is phantomjs. So, installing phantomjs and casperjs is necessary. 
 
-#### phantomjs
+#### Install phantomjs
  - Please check the newest documentation of [phantomjs](http://phantomjs.org/)
 
-#### casperjs
+#### Install casperjs
  - Please check the newest documentation of [casperjs](http://casperjs.org/)
  ```
  $ npm install -g casperjs
  ```
 
-#### download f2e-watcher and install
+#### Download f2e-watcher and install
 ```
 $ git clone git@github.com:wahengchang/f2e-watcher.git
 $ cd f2e-watcher
@@ -37,7 +37,7 @@ $ npm install
 }
 ```
 
-### 2. run the script
+### 2. Run the script
 ```
 $ npm run report:all
 
