@@ -22,6 +22,7 @@ The base of f2e-watcher is casperjs, and the base of casperjs is phantomjs. So, 
 $ git clone git@github.com:wahengchang/f2e-watcher.git
 $ cd f2e-watcher
 $ npm install
+$ cd reportWeb/ && npm install && cd ..
 ```
 
 ## Run
