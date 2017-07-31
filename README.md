@@ -1,8 +1,32 @@
+# f2e-watcher
+Isomorphic Web Application is widely used and it is complex,problem of  performance occurs easier than before, this is a toolkit to ensure performance quality assurance.
 
+ - See also: [express-watcher](https://www.npmjs.com/package/express-watcher)
 
-## Run f2e-watcher
+## Install
+The base of f2e-watcher is casperjs, and the base of casperjs is phantomjs. So, installing phantomjs and casperjs is necessary. 
+
+#### phantomjs
+ - Please check the newest documentation of [phantomjs](http://phantomjs.org/)
+
+#### casperjs
+ - Please check the newest documentation of [casperjs](http://casperjs.org/)
+ ```
+ $ npm install -g casperjs
+ ```
+
+#### download f2e-watcher and install
 ```
-$ node module/
+$ git clone git@github.com:wahengchang/f2e-watcher.git
+$ cd f2e-watcher
+$ npm install
+```
+
+## Run
+```
+$ npm run report:all
+
+//open browser http://localhost:3000/preload for the result
 ```
 
 ## report.json format

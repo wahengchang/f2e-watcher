@@ -10,6 +10,17 @@ var generatePadding = require('./print').generatePadding
 
 var resourceExists = require('./utils').resourceExists
 
+// var cookie = "AO='u=1'; B=''; F='d='; PH='';";
+// var domain = "yahoo.com";
+// cookie.split(";").forEach(function(pair){
+//     pair = pair.split("=");
+//     phantom.addCookie({
+//       'name': pair[0],
+//       'value': pair[1],
+//       'domain': domain
+//     });
+// });
+
 var casper = require('casper').create({
     verbose: true,
     logLevel: 'error',
