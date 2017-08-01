@@ -10,6 +10,9 @@ The base of f2e-watcher is casperjs, and the base of casperjs is phantomjs. So, 
 
 #### Install phantomjs
  - Please check the newest documentation of [phantomjs](http://phantomjs.org/)
+ ```
+ $ npm install -g phantomjs
+ ```
 
 #### Install casperjs
  - Please check the newest documentation of [casperjs](http://casperjs.org/)
