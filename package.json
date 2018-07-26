@@ -5,13 +5,15 @@
   "scripts": {
     "report:all": "node module/childProcess/child",
     "start": "casperjs ./module/performance/index.js",
-    "report": "open http://localhost:3000/preload && NODE_ENV=production node ./reportWeb/dist/server.js",
+    "report": "open http://localhost:3000/preload && node ./web-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "colors": "^1.1.2"
+    "casperjs": "^1.1.4",
+    "colors": "^1.1.2",
+    "express": "^4.16.3"
   },
   "dependencies": {},
   "repository": {

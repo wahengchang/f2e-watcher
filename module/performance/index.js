@@ -157,6 +157,8 @@ casper.then(function() {
 
     fileHelper.processReport(reportData, first)
     fileHelper.processResources(url, resources, first)
+
+    casper.capture('screenshots/img2.png');
 }); 
 
 
